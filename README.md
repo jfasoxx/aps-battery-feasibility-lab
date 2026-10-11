@@ -13,7 +13,7 @@ all project costs remain illustrative.
 - [Executed reviewer notebook](notebooks/APS_Battery_Review.ipynb): measured results, failure analysis, cost sensitivities and reproducibility checks.
 - [Measured-data research update](RESEARCH_UPDATE.md): current sources, data adjustment, findings and development recommendation.
 - [Full project guide](docs/APS_Project_Guide.pdf): methodology and APS development context.
-- [Application and interview notes](APPLICATION_NOTES.md): a concise description and questions to understand before submitting.
+- [Application and interview notes](APPLICATION_NOTES.md): a concise description and interview practice questions.
 
 ## Measured summer findings
 
@@ -251,7 +251,6 @@ a bidding engine, interconnection study, lender model or live grid controller.
 ## Project provenance and publication
 
 Public repository: [jfasoxx/aps-battery-feasibility-lab](https://github.com/jfasoxx/aps-battery-feasibility-lab).
-Prepared with AI assistance. The original model and analysis are research work;
-understand and reproduce the calculations before describing your contribution
-in an application. No APS logos or proprietary documents are included. Public
+Prepared with AI assistance. The original model and analysis are research work.
+No APS logos or proprietary documents are included. Public
 APS documents are linked, not redistributed. See `PUBLISHING.md` for local use.
