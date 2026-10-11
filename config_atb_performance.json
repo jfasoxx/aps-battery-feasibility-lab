@@ -1,0 +1,23 @@
+{
+  "power_mw": 100.0,
+  "durations_hours": [
+    4,
+    6,
+    8
+  ],
+  "round_trip_efficiency": 0.85,
+  "power_factor": 1.0,
+  "auxiliary_mw": 0.5,
+  "initial_soc_fraction": 0.5,
+  "power_cost_usd_per_kw": 350.0,
+  "energy_cost_usd_per_usable_ac_kwh": 180.0,
+  "interconnection_usd": 15000000.0,
+  "development_usd": 5000000.0,
+  "contingency_fraction": 0.1,
+  "augmentation_year": 10,
+  "augmentation_usd_per_usable_ac_kwh": 0,
+  "life_years": 15,
+  "real_discount_rate": 0.08,
+  "paid_availability_fraction": 0.98,
+  "annual_fixed_om_fraction_of_capex": 0.04
+}

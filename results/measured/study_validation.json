@@ -1,0 +1,50 @@
+[
+  {
+    "case": "2024",
+    "data_mode": "measured-eia-demand",
+    "comparisons": 6,
+    "hourly_records": 17568,
+    "evaluated_days": 122,
+    "physics_and_finance": "passed"
+  },
+  {
+    "case": "2025",
+    "data_mode": "measured-eia-demand",
+    "comparisons": 6,
+    "hourly_records": 17568,
+    "evaluated_days": 122,
+    "physics_and_finance": "passed"
+  },
+  {
+    "case": "2026",
+    "data_mode": "measured-eia-demand",
+    "comparisons": 6,
+    "hourly_records": 17568,
+    "evaluated_days": 122,
+    "physics_and_finance": "passed"
+  },
+  {
+    "case": "2026_reported_raw",
+    "data_mode": "measured-eia-demand",
+    "comparisons": 6,
+    "hourly_records": 17568,
+    "evaluated_days": 122,
+    "physics_and_finance": "passed"
+  },
+  {
+    "case": "2026_derated",
+    "data_mode": "measured-eia-demand",
+    "comparisons": 6,
+    "hourly_records": 17568,
+    "evaluated_days": 122,
+    "physics_and_finance": "passed"
+  },
+  {
+    "case": "2026_atb_performance",
+    "data_mode": "measured-eia-demand",
+    "comparisons": 6,
+    "hourly_records": 17568,
+    "evaluated_days": 122,
+    "physics_and_finance": "passed"
+  }
+]

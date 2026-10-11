@@ -1,0 +1,22 @@
+{
+  "source_url": "https://www.eia.gov/electricity/gridmonitor/knownissues/xls/AZPS.xlsx",
+  "publisher": "U.S. Energy Information Administration",
+  "balancing_authority": "AZPS",
+  "sheet": "Published Hourly Data",
+  "value_column": "Adjusted demand",
+  "units": "MWh per one-hour interval; numeric average MW",
+  "timestamp_conversion": "UTC time is hour-ending; subtract one hour for hour-start",
+  "start_phoenix_inclusive": "2024-05-25",
+  "end_phoenix_exclusive": "2024-10-01",
+  "extracted_at_utc": "2026-10-11T04:19:56.191417+00:00",
+  "raw_workbook_sha256": "b74eafc23a28dd6109ed154b9b5fde4dbc1d99ca16492c266071a7c8308efb98",
+  "canonical_csv_sha256": "be4930c64740a8369c2bcdafe2722583664c8472a3f766c55b5abef4ce8d7eeb",
+  "quality": {
+    "rows": 3096,
+    "missing_rows": 0,
+    "filled_rows": 0,
+    "reported_vs_adjusted_differences": 0,
+    "source_imputed_demand_cells": 0
+  },
+  "revision_warning": "Revised published history, not an as-of operational replay"
+}

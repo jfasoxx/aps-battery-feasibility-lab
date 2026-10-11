@@ -1,0 +1,7 @@
+data_mode,duration_hours,strategy,evaluated_days,baseline_period_peak_mw,adjusted_period_peak_proxy_mw,period_peak_reduction_proxy_mw,mean_daily_peak_reduction_proxy_mw,worst_daily_peak_reduction_proxy_mw,top100_hour_mean_net_support_mw,forecast_mae_mw,charging_mwh,discharging_mwh,equivalent_cycles_usable_ac,auxiliary_mwh,power_factor,max_net_output_after_auxiliary_mw,capacity_credit_mw,merchant_revenue_usd
+measured-eia-demand,4,lag7_dispatch,122,8982.0,8957.5,24.5,31.39344262295082,-0.5,25.26727272727273,742.0860655737705,16590.909090909285,14600.0,36.5,1464.0,0.9,89.5,,
+measured-eia-demand,4,hindsight_daily_bound,122,8982.0,8892.5,89.5,89.5,89.5,31.866363636363634,742.0860655737705,16522.72727272747,14540.0,36.35,1464.0,0.9,89.5,,
+measured-eia-demand,6,lag7_dispatch,122,8982.0,8957.5,24.5,30.569299552906113,-76.5,25.51727272727273,742.0860655737705,16590.909091089037,14600.0,24.333333333333332,1464.0,0.9,89.5,,
+measured-eia-demand,6,hindsight_daily_bound,122,8982.0,8892.5,89.5,89.5,89.5,31.58,742.0860655737705,16522.727272907214,14540.0,24.233333333333334,1464.0,0.9,89.5,,
+measured-eia-demand,8,lag7_dispatch,122,8982.0,8957.5,24.5,27.987332339792143,-90.49999999999818,25.394545454545455,742.0860655737705,16590.9090909251,14600.0,18.25,1464.0,0.9,89.5,,
+measured-eia-demand,8,hindsight_daily_bound,122,8982.0,8892.5,89.5,89.5,89.5,30.55727272727272,742.0860655737705,16522.72727274336,14540.0,18.175,1464.0,0.9,89.5,,

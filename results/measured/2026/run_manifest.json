@@ -1,0 +1,61 @@
+{
+  "data_mode": "measured-eia-demand",
+  "source_label": "EIA-930 AZPS Adjusted demand; 2026-05-25 to 2026-10-01; revised snapshot",
+  "input_path": "data/public/azps_summer_2026.csv",
+  "input_sha256": "6d751185102f07ed628a4631da8727896fbd2afaf082c6c655ec36d970684230",
+  "provenance_path": "data/public/azps_summer_2026.provenance.json",
+  "source_quality": {
+    "rows": 3096,
+    "missing_rows": 0,
+    "filled_rows": 0,
+    "reported_vs_adjusted_differences": 1,
+    "source_imputed_demand_cells": 1
+  },
+  "case": "2026",
+  "config": {
+    "power_mw": 100.0,
+    "durations_hours": [
+      4,
+      6,
+      8
+    ],
+    "round_trip_efficiency": 0.88,
+    "power_factor": 1.0,
+    "auxiliary_mw": 0.5,
+    "initial_soc_fraction": 0.5,
+    "power_cost_usd_per_kw": 350.0,
+    "energy_cost_usd_per_usable_ac_kwh": 180.0,
+    "interconnection_usd": 15000000.0,
+    "development_usd": 5000000.0,
+    "contingency_fraction": 0.1,
+    "annual_fixed_om_usd_per_kw": 20.0,
+    "augmentation_year": 10,
+    "augmentation_usd_per_usable_ac_kwh": 30.0,
+    "life_years": 20,
+    "real_discount_rate": 0.08,
+    "paid_availability_fraction": 0.98
+  },
+  "python": "3.12.14",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "generated_at_utc": "2026-10-11T04:21:26.805125+00:00",
+  "exclusions": [
+    "nodal flows",
+    "APS avoided costs",
+    "accredited capacity/ELCC",
+    "retail bill savings",
+    "merchant trading revenue",
+    "taxes/credits/debt",
+    "stochastic forced outages",
+    "real-time controller"
+  ],
+  "data_quality": {
+    "input_rows": 3096,
+    "imputed_rows": 0,
+    "warmup_hours": 168,
+    "timestamp_convention": "hour-start UTC; grouped America/Phoenix"
+  }
+}
